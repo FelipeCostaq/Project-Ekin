@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-color: black;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    background-color: white;
+    
+}
+
+nav{
+    display: flex;
+    gap: 32px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.041);
+}
+
+nav > a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+    padding: 5px;
+}
+nav > a:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+main{
+    border-top: 0.4px solid black;
+    border-bottom: 0.4px solid black;
+    margin-bottom: 30px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+div > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+div > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+div > button {
+    background-color: white;
+    color: black;
+    width: 185px;
+    height: 87;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.486);
+}
+button a {
+    color: black;
+}
+button:hover {
+    background-color: drgba(189, 184, 184, 0.781);
+}
+section > img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+section > h3 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-top: 1px solid white;
+    padding-top: 50px;
+    color: white;
+}
+
+section > p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+footer{
+    padding: 10px;
+    background-color: white;
+}
+
+#instagram{
+    margin-left: 20px;
+}
+
+#facebook{
+    margin-left: 10px;
+}
