@@ -27,6 +27,7 @@ nav{
     display: flex;
     gap: 32px;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.041);
+    text-align: center;
 }
 
 nav > a{
@@ -35,6 +36,7 @@ nav > a{
     font-weight: bold;
     font-size: 21px;
     padding: 5px;
+    text-align: center;
 }
 nav > a:hover{
     transition: 0.5s;
