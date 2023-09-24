@@ -71,11 +71,15 @@ div > h1 {
     font-size: 60px;
     font-weight: bold;
     color: white;
+    min-width: 25px;
+    margin-left: 10px;
 }
 
 div > h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    min-width: 19px;
+    margin-left: 10px;
 }
 
 div > button {
@@ -87,6 +91,7 @@ div > button {
     border-radius: 10px;
     border: none;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.486);
+    margin-left: 10px;
 }
 button a {
     color: black;
