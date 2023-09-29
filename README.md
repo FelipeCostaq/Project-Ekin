@@ -3,4 +3,4 @@
 <h2>Responsividade</h2>
  <p>Página não muito responsiva. Pode ter alguns bugs em resoluções menores.</p>
 <h2>Link:</h2>
-<p>https://felipecostaq.github.io/ekin-project/</p>
+<p>https://felipecostaq.github.io/Project-Ekin/</p>
